@@ -65,12 +65,12 @@ const projects = {
             <!-- Project 1: Visual Object Tracking -->
                 <div class="project-item">
                     <div class="project-header">
-                        <h3>Visual Object Tracking</h3>
+                        <h1>Visual Object Tracking</h1>
                     </div>
                     <div class="project-content">
                         <!-- Sub-Project A -->
                         <div class="sub-project">
-                            <h4>Context-Aware Environmental Residual Correlation Filter for Robust Tracking</h4>
+                            <h2>Context-Aware Environmental Residual Correlation Filter for Robust Tracking</h2>
                             <p>Tracking objects in real-world scenarios requires handling rapid motion, occlusions, scale variations, and background clutter. In this project, I developed a correlation filter-based tracker (CAERDCF) that utilizes environmental residual learning and multi-feature fusion to improve robustness against challenging conditions. The method significantly enhances tracking adaptability by incorporating context-aware patches and a selective spatial regularizer, preventing drift and boundary artifacts.</p>
                             <div class="skills-highlights">
                                 <div class="skills">
@@ -89,7 +89,13 @@ const projects = {
                                         <li>Published in <em>Mathematics (MDPI)</em>.</li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div>                                                 
+                            <h3>Overall framework of Proposed method</h3>
+                            <div class="showcase-image">
+                                <img src="assets/Results/CAERDCF FRAMEWORK.jpg" alt="SiamAdapt Tracking Performance">
+                                <p class="caption">Illustration of tracking robustness under various challenging conditions.</p>
+                            </div>        
+                            <h3>Comparison Results</h3>
                             <div class="showcase-image">
                                 <img src="assets/Results/CAERDCF RESULTS.jpg" alt="CAERDCF Tracking Performance">
                                 <p class="caption">Visual comparison of tracking performance with different trackers.</p>
@@ -98,7 +104,7 @@ const projects = {
 
                         <!-- Sub-Project B -->
                         <div class="sub-project">
-                            <h4>Multi-Level Hybrid Siamese Network with Box Adaptive Approach (SiamAdapt)</h4>
+                            <h2>Multi-Level Hybrid Siamese Network with Box Adaptive Approach (SiamAdapt)</h2>
                             <p>Siamese-based trackers have demonstrated strong performance, but many rely on predefined anchor boxes, making them sensitive to target scale variations. This project introduced SiamAdapt, a proposal-free tracking approach that eliminates anchor dependency, using a box-adaptive method to improve tracking accuracy. The framework incorporates ranking-based classification loss and IoU-guided ranking loss, optimizing both localization and classification.</p>
                             <div class="skills-highlights">
                                 <div class="skills">
@@ -117,7 +123,13 @@ const projects = {
                                         <li>Published in <em>Multimedia Tools and Applications (Springer)</em>.</li>
                                     </ul>
                                 </div>
+                            </div>                            
+                            <h3>Overall framework of Proposed method</h3>
+                            <div class="showcase-image">
+                                <img src="assets/Results/SIAMADAPT FRAMEWORK.jpg" alt="SiamAdapt Tracking Performance">
+                                <p class="caption">Illustration of tracking robustness under various challenging conditions.</p>
                             </div>
+                            <h3>Comparison Results</h3>
                             <div class="showcase-image">
                                 <img src="assets/Results/SIAMADAPT RESULTS.jpg" alt="SiamAdapt Tracking Performance">
                                 <p class="caption">Illustration of tracking robustness under various challenging conditions.</p>
@@ -126,7 +138,7 @@ const projects = {
 
                         <!-- Sub-Project C -->
                         <div class="sub-project">
-                            <h4>Keypoint Prediction Enhanced Siamese Tracker with Attention Mechanisms</h4>
+                            <h2>Keypoint Prediction Enhanced Siamese Tracker with Attention Mechanisms</h2>
                             <p>This project aimed to improve localization in tracking by incorporating keypoint prediction within a Siamese network. The model refines tracking accuracy using a progressive heatmap refinement technique that sharpens target positions. Additionally, self-attention and cross-attention mechanisms are used to enhance feature representations, improving tracking robustness in cluttered scenes.</p>
                             <div class="skills-highlights">
                                 <div class="skills">
@@ -147,6 +159,12 @@ const projects = {
                                 </div>
                             </div>
                             <div class="showcase-image">
+                                <h3>Overall framework of Proposed method</h3>
+                                <img src="assets/Results/SIAMRAKPN FRAMEWORK.jpg" alt="Keypoint Tracker Performance">
+                                <p class="caption">Visual comparison of keypoint prediction versus standard tracking methods.</p>
+                            </div>
+                            <h3>Comparison Results</h3>
+                            <div class="showcase-image">
                                 <img src="assets/Results/SIAMRAKPN RESULTS.jpg" alt="Keypoint Tracker Performance">
                                 <p class="caption">Visual comparison of keypoint prediction versus standard tracking methods.</p>
                             </div>
@@ -161,11 +179,11 @@ const projects = {
             <!-- Project 2: Object Detection -->
                 <div class="project-item">
                     <div class="project-header">
-                        <h3>Object Detection</h3>
+                        <h1>Object Detection</h1>
                     </div>
                     <div class="project-content">
                         <div class="sub-project">
-                            <h4>Hybrid Multi-Attention Transformer for Robust Video Object Detection (HyMATOD)</h4>
+                            <h2>Hybrid Multi-Attention Transformer for Robust Video Object Detection (HyMATOD)</h2>
                             <p>Video object detection (VOD) is particularly challenging due to motion blur, occlusions, and appearance changes. This project developed HyMATOD, a transformer-based model with a Hybrid Multi-Attention (HyMAT) module, which improves temporal consistency by enhancing target-background embeddings. By integrating self- and cross-attention blocks, the model achieves superior detection accuracy across frames.</p>
                             <div class="skills-highlights">
                                 <div class="skills">
@@ -184,7 +202,13 @@ const projects = {
                                         <li>Published in <em>Engineering Applications of Artificial Intelligence (Elsevier)</em>.</li>
                                     </ul>
                                 </div>
+                            </div>                            
+                            <h3>Overall framework of HyMATOD</h3>
+                            <div class="showcase-image">
+                                <img src="assets/Results/DETECTION FRAMEWORK.jpg" alt="HyMATOD Performance">
+                                <p class="caption">Comparison of HyMATOD performance on benchmark datasets.</p>
                             </div>
+                            <h3>Comparison Results</h3>
                             <div class="showcase-image">
                                 <img src="assets/Results/DETECTION RESULTS.jpg" alt="HyMATOD Performance">
                                 <p class="caption">Comparison of HyMATOD performance on benchmark datasets.</p>
@@ -201,11 +225,11 @@ const projects = {
              <!-- Project 3: Object Segmentation -->
                 <div class="project-item">
                     <div class="project-header">
-                        <h3>Object Segmentation</h3>
+                        <h1>Object Segmentation</h1>
                     </div>
                     <div class="project-content">
                         <div class="sub-project">
-                            <h4>Semi-Supervised One-Shot Learning for Video Object Segmentation (OSOSM)</h4>
+                            <h2>Semi-Supervised One-Shot Learning for Video Object Segmentation (OSOSM)</h2>
                             <p>Accurate segmentation in dynamic video environments is critical for applications like autonomous navigation and video analytics. This project introduced OSOSM, a one-shot learning approach for instance segmentation. The method enables robust segmentation by using a single labeled frame to adapt the model dynamically across sequences. The model further incorporates fast bilateral solver (FBS) for background alignment and a parallel contour detection branch for sharp object boundaries.</p>
                             <div class="skills-highlights">
                                 <div class="skills">
@@ -225,6 +249,7 @@ const projects = {
                                     </ul>
                                 </div>
                             </div>
+                            <h3>Comparison Results</h3>
                             <div class="showcase-image">
                                 <img src="assets/Results/SEGMENT RESULTS1.jpg" alt="OSOSM Segmentation Results">
                                 <p class="caption">Side-by-side comparison of segmentation results on different sequences.</p>
